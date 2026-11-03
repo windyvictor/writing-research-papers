@@ -1,0 +1,6 @@
+interface:
+  display_name: "科研论文与综述写作"
+  short_description: "以可回溯的主张和证据组织论文、综述、投稿与返修材料"
+  default_prompt: "使用 $writing-research-papers 根据这些材料撰写或修改论文内容，确保主张、证据和引用可以回溯。"
+policy:
+  allow_implicit_invocation: true

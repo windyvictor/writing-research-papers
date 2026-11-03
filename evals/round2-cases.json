@@ -1,0 +1,46 @@
+{
+  "skill": "writing-research-papers",
+  "version": "2026-11-03-round2",
+  "status": "designed_not_model_tested",
+  "cases": [
+    {
+      "id": "writing-research-papers-r2-1",
+      "label": "理论局部稿",
+      "prompt": "这是一段理论论文：设 x>0，则 x²>0。只改表达，不增加实验章节。",
+      "assertions": [
+        "保留条件和结论",
+        "不强套 IMRaD 或实验依据",
+        "仅交局部文本"
+      ]
+    },
+    {
+      "id": "writing-research-papers-r2-2",
+      "label": "轻量综述",
+      "prompt": "根据我给的两篇摘要写一段背景：A 在单一城市观察到 X 与 Y 相关；B 在三个城市未见稳定关联。无需继续检索。",
+      "assertions": [
+        "如实呈现冲突及摘要范围",
+        "不写成因果或系统综述",
+        "不要求完整 PRISMA 流程或固定述评比例"
+      ]
+    },
+    {
+      "id": "writing-research-papers-r2-3",
+      "label": "系统综述计划",
+      "prompt": "请设计一个系统综述检索记录模板，尚未执行查询。",
+      "assertions": [
+        "含平台、实际检索式、限制、日期、去重、筛选和来源位置",
+        "区分记录、报告与研究",
+        "不填造命中数或流程图数量"
+      ]
+    },
+    {
+      "id": "writing-research-papers-r2-4",
+      "label": "误触发",
+      "prompt": "请看这篇论文的式 (4)，只解释符号意义，不改写论文。",
+      "assertions": [
+        "按阅读解释任务处理",
+        "不启动写作或投稿自检"
+      ]
+    }
+  ]
+}

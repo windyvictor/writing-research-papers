@@ -1,0 +1,14 @@
+{
+  "skill": "writing-research-papers",
+  "protocol": "每条查询在新会话运行 3 次；记录是否加载本技能及误路由原因。",
+  "queries": [
+    {"query": "根据这批文献写 Related Work，按方法主题比较，不要逐篇罗列。", "should_trigger": true},
+    {"query": "重构这篇论文的 Introduction，让研究缺口由证据推出。", "should_trigger": true},
+    {"query": "检查 Results 中每个主张是否有对应数据和图表。", "should_trigger": true},
+    {"query": "帮我准备投稿信和逐条审稿回复。", "should_trigger": true},
+    {"query": "设计一个可追溯的系统综述检索与筛选流程。", "should_trigger": true},
+    {"query": "只解释这篇论文的公式 7。", "should_trigger": false},
+    {"query": "只把这段已有文字改得不像 AI。", "should_trigger": false},
+    {"query": "从这些笔记生成卡片盒连接。", "should_trigger": false}
+  ]
+}
