@@ -1,8 +1,22 @@
 # writing-research-papers
 
-English | [中文](README.cn.md)
+English | [中文](README.cn.md) · [Research Skillbox](https://github.com/windyvictor/research-skillbox)
 
 An end-to-end research-paper and literature-review writing skill covering search records, synthesis, argument design, section drafting, revision, submission, review responses, and thesis preparation.
+
+## Why this skill
+
+Research writing fails when prose starts before the evidence and argument are ready. A literature review becomes a paper list, an Introduction announces a gap that the sources do not establish, and a Discussion claims more than the experiment tested. This skill builds the evidence and paragraph logic before expanding the prose.
+
+### What you get
+
+- Search and evidence records that keep claims traceable to source passages
+- Literature matrices and thematic synthesis instead of author-by-author enumeration
+- Argument and section blueprints for papers, theses, and reviews
+- Drafts for abstracts, introductions, methods, experiments, results, discussions, and conclusions
+- Claim–evidence audits, submission materials, reviewer responses, and revision plans
+
+**Workflow:** define the paper's central claim → assemble and verify evidence → design the argument → draft the requested scope → audit claims, citations, and reader flow.
 
 ## Use it for
 

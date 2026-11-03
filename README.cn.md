@@ -1,6 +1,6 @@
 # writing-research-papers
 
-[English](README.md) | 中文
+[English](README.md) | 中文 · [Research Skillbox 总导航](https://github.com/windyvictor/research-skillbox)
 
 > 科研论文写作与文献综述**全流程**技能 —— 从检索一批文献，到投出最终稿。
 
@@ -8,6 +8,16 @@
 
 把「写论文」这件模糊的大事，拆成**有指南、有句式、有范例、有检查清单**的可执行步骤，
 覆盖从文献检索到投稿返修的每一个环节。
+
+## 你会得到什么
+
+- 能把正文主张追溯到原文位置的检索与证据记录
+- 按主题、方法和争议组织的文献矩阵，而不是逐篇报菜名
+- 论文、学位论文和综述的论证骨架与段落蓝图
+- 摘要、引言、方法、实验、结果、讨论和结论等具体章节稿件
+- 主张—证据核对、投稿材料、审稿回复和返修计划
+
+工作路径是：**明确全文核心主张 → 收集并核实证据 → 设计论证结构 → 起草指定范围 → 核对主张、引用和读者理解路径**。一段修改停在一段，理论论文不被强行套进 IMRaD。
 
 ## 解决什么问题
 
@@ -156,3 +166,12 @@ writing-research-papers/
 > 「帮我写一篇关于多视图聚类的文献综述，我手上有这 30 篇论文。」
 > 「我这篇论文的 Introduction 被审稿人说『问题不清、动机不足』，帮我重写。」
 > 「投稿前帮我做一遍对抗式自审，重点查 claim-evidence 对齐。」
+
+## 安装
+
+```bash
+git clone https://github.com/windyvictor/writing-research-papers.git
+ln -s "$PWD/writing-research-papers" ~/.agents/skills/writing-research-papers
+```
+
+其他宿主请把仓库放入对应的 skills 目录。脚本只检查机械线索，不评价科学有效性或保证录用。
